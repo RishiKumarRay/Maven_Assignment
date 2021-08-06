@@ -12,10 +12,10 @@ public final class Application {
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter two numbers ");
+        System.out.println("Enter two numbers: ");
         int firstinput = scan.nextInt();
         int secondinput = scan.nextInt();
-        System.out.println("Choose Your Operation");
+        System.out.println("Choose Your Operation: ");
         System.out.println("1.Add ");
         System.out.println("2.Sub ");
         System.out.println("3.Multi ");
